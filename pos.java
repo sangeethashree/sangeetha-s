@@ -7,9 +7,13 @@ if(s>0)
 {
 System.out.println("The Number is Positive");
 }
-else 
+else if (s<0)
 {
 System.out.println("The Number is Negative");
 }
+else
+{
+  System.out.println("The Number is Zero");
+  }
 }
 }
