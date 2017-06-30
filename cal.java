@@ -1,5 +1,7 @@
 import java.util.*;
 import java.io.*;
+public class cal{
+  public static void main(String[] args){
 int i,g,a;
 Scanner sc=new Scanner(System.in);
 System.out.println("Enter the table value");
