@@ -4,7 +4,7 @@ public class Leap{
 public static void main(String [] args){
 int lp;
 Scanner sc=new Scanner(System.in);
-System.out.println("Enter the Given Year");
+System.out.println("Enter the  Year");
 lp=sc.nextInt();
 if((lp%4==0)&&(lp%100!=0)||(lp%400==0))
 {
