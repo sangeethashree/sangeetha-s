@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-public class fibo{
+public class ser{
 public static void main(String []args){
 int i,n,f1=0;,f2=1,f3;
 Scanner s=new Scanner(System.in);
