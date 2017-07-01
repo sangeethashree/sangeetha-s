@@ -1,6 +1,6 @@
 import java.util.*;
 import java .io.*;
-public class Fac{
+public class Fc{
 public static void main(String[] args){
 int a,i,fact=1;
 Scanner sc=new Scanner(system.in);
