@@ -2,14 +2,13 @@ import java.util.*;
 import java.io.*;
 public class Pow
 {
-public static void main(Strings[] args)
+public static void main(String[] args)
 {
-int b,e,res;
+ double b,e;
 Scanner sc=new Scanner(System.in);
 System.out.println("enter the base and exponent");
 b=sc.nextInt();
-e=sc.next.Int();
- res=pow(b,e);
-System.out.println("the result is"+res);
+e=sc.nextInt();
+System.out.println("the result is"+Math.pow(b,e));
 }
 }
