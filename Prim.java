@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
  class Prim{
 public static void main(String[] args){
-int j,s,a=0;
+int j,s;
 int num;
 Scanner sc=new Scanner(System.in);
 num=sc.nextInt();
