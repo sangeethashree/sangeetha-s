@@ -1,21 +1,21 @@
 import java.util.*;
 import java.io.*;
-public class Prim{
+ class Prim{
 public static void main(String[] args){
-int i,s,a=0;
-int n;
+int j,s,a=0;
+int num;
 Scanner sc=new Scanner(System.in);
-n=sc.newInt();
-int s=n/2;
-for(i=2;i<=s;i++)
+num=sc.nextInt();
+for(j=2;j<=Math.sqrt(num);j++)
 {
-if(n%i==0)
-{
-System.out.println("it is a prime number");
-}
-else
+if(num%j==0)
 {
 System.out.println("it is not a prime number");
 }
+else
+{
+System.out.println("it is a prime number");
 }
 }
+}
+ }
