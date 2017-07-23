@@ -8,6 +8,13 @@ System.out.println("enter the value");
 a=sc.nextInt();
 for(i=1;i<=a;i++)
 {
-fact=i*fact;}
+fact=i*fact;
+}if(n!=0)
+{
 System.out.println("the factorial is"+fact);
+}
+  else
+    System.out.println("the  factorial is 0");
+}
 }}
+  
