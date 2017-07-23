@@ -1,5 +1,5 @@
 import java.util.*;
-import java .io.*;
+import java.io.*;
  class Fc{
 public static void main(String[] args){
 int a,i,fact=1;
