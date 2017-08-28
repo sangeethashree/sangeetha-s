@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-public class rev{
+public class Re{
 public static void main(String[] args)
 {
 StringBuffer s1 = new StringBuffer();
